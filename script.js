@@ -9,8 +9,7 @@ const message = "Hello";
 const origin = "MC";
 
 //Day 2
-//given example
-const exampleAstronaut = {
+const exampleAstronaut = { //given example
     firstName: "Yuri",
     lastName: "Gagarin",
     nickname: "First!",
@@ -24,4 +23,18 @@ const astronautOutput = (`${astronaut.prefix}: ${astronaut.firstName} "${astrona
     return astronautOutput 
 }
 
+//Day 3
+const exampleGauge = { //given example
+    current:0.4,
+    min:0.1,
+    max:0.9
+  }
   
+const checkGaugeStatus = (gauge) => {
+
+if(gauge.current >= gauge.min && gauge.current <= gauge.max) {
+        return true
+    } else {
+        return false
+    }
+}
