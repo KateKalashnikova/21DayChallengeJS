@@ -47,3 +47,10 @@ const switchToggle = (toggle) => {
     return toggle;
     
   }
+
+  //Day 5
+  const addJobToAstronaut = (astronaut, job) => {
+    astronaut.job = `${job}`
+    return astronaut
+    
+    }
