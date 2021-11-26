@@ -12,3 +12,5 @@ Your task is to create a function that will take the gauge object as a parameter
 ### Day 4 Instructions
 Opposites hm? In our daily lives, an opposite can mean multiple things, but in programming, it's different. Opposites can only be used when dealing with logical expressions or booleans. Knowing that the property inside our toggle is called isOn, we can infer that the value attached to it is either true, or false.
 Create a function that takes in a toggle object and will change the value of the property isOn between true and false and return the updated object. Using the function twice should revert the toggle back to its original value.
+### Day 5 Instructions
+Now that a crew has been selected, you need to write a new function that will assign a job to each astronaut. Since you’ve had some experience with updating object properties in some of the previous challenges, this should be fairly straightforward. Just keep in mind that you need to return the astronaut after updating the job property.
