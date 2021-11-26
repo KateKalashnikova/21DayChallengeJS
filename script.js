@@ -38,3 +38,12 @@ if(gauge.current >= gauge.min && gauge.current <= gauge.max) {
         return false
     }
 }
+
+//Day 4
+const switchToggle = (toggle) => {
+  
+    toggle.isOn = !toggle.isOn
+    
+    return toggle;
+    
+  }
