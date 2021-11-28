@@ -57,7 +57,7 @@ const switchToggle = (toggle) => {
 
   //Day 6
   const addAstronautToRoster = (roster, astronaut) => {
-    roster.push(astronaut )
+    roster.push(astronaut)
     return(roster)
   }
 
@@ -69,8 +69,6 @@ const switchToggle = (toggle) => {
       windSpeed:Math.round(`${windSpeed}` / 2.237),
       windDirection:`${windDirection}`
     };
-  
     return object;
-    
   }
   
