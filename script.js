@@ -54,3 +54,23 @@ const switchToggle = (toggle) => {
     return astronaut
     
     }
+
+  //Day 6
+  const addAstronautToRoster = (roster, astronaut) => {
+    roster.push(astronaut )
+    return(roster)
+  }
+
+  //Day 7
+  const storeWeatherConditions = (temperature, condition, windSpeed, windDirection) => {
+    const object = {
+      temperature:Math.round((`${temperature}` - 32) * 5/9),
+      condition:`${condition}`,
+      windSpeed:Math.round(`${windSpeed}` / 2.237),
+      windDirection:`${windDirection}`
+    };
+  
+    return object;
+    
+  }
+  
