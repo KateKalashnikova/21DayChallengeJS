@@ -14,3 +14,8 @@ Opposites hm? In our daily lives, an opposite can mean multiple things, but in p
 Create a function that takes in a toggle object and will change the value of the property isOn between true and false and return the updated object. Using the function twice should revert the toggle back to its original value.
 ### Day 5 Instructions
 Now that a crew has been selected, you need to write a new function that will assign a job to each astronaut. Since you’ve had some experience with updating object properties in some of the previous challenges, this should be fairly straightforward. Just keep in mind that you need to return the astronaut after updating the job property.
+### Day 6 Instructions
+Create a function that takes in a roster array and an astronaut object. The function will add the astronaut to the roster and return the updated roster.
+### Day 7 Instructions
+Your task is to write a function that takes in the temperature, weather condition, wind speed, and direction as parameters and store them inside a structure that holds each value as properties.
+There's a small and important detail for this one, you must convert the temperature from Fahrenheit to Celsius and convert the wind speed from miles/hour to meters/second, and round both of them before storing them.
