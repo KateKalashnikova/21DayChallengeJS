@@ -72,3 +72,8 @@ const switchToggle = (toggle) => {
     return object;
   }
   
+  //Day 8
+  const countActiveAstronauts = (roster) => {
+    return roster.length
+  }
+  
