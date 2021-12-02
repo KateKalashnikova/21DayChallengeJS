@@ -19,3 +19,6 @@ Create a function that takes in a roster array and an astronaut object. The func
 ### Day 7 Instructions
 Your task is to write a function that takes in the temperature, weather condition, wind speed, and direction as parameters and store them inside a structure that holds each value as properties.
 There's a small and important detail for this one, you must convert the temperature from Fahrenheit to Celsius and convert the wind speed from miles/hour to meters/second, and round both of them before storing them.
+### Day 8 Instructions
+Your task is to create a function that takes in a roster array, and will calculate the amount of astronauts in the given roster list and return said amount.
+Sometimes things are just simple, code doesn't need to be complicated!
