@@ -76,4 +76,14 @@ const switchToggle = (toggle) => {
   const countActiveAstronauts = (roster) => {
     return roster.length
   }
-  
+
+  //Day 9
+  const listAstronautJobs = (roster) => {
+    jobs = [];
+    for (let i=0; i < roster.length; i++) {
+    jobs.push(roster[i].job);
+    return jobs;
+    }
+  }
+//Day 10
+
