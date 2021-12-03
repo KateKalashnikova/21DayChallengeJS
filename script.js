@@ -86,4 +86,12 @@ const switchToggle = (toggle) => {
     }
   }
 //Day 10
-
+const averageWindSpeed = (weatherEntries) => {
+  arr = [];
+  for (let i=0; i < weatherEntries.length; i++) {
+  arr.push(weatherEntries[i].windSpeed);
+  }
+  const avg = arr.reduce((a, b) => a + b, 0)/ arr.length;
+  return Math.round(avg)
+ }
+ 
