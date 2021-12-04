@@ -107,4 +107,16 @@ const bookFreePlatform = (platformList, missionDate) => {
   }
     return platformList;
   }
-  
+ //Day 12 
+ // Add your parseMessage function here if you want!
+const parseMessage = (origin, message) => {
+  return `${origin}: ${message}`
+}
+
+const parseTranscripts = (messages) => {
+arr = [];
+for (i=0; i < messages.length; i++){
+arr.push(`${messages[i].origin}: ${messages[i].message}`);
+}
+return arr
+}
