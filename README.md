@@ -28,3 +28,7 @@ In other terms, for each astronaut of the roster, you want to take the job and a
 ### Day 10 Instructions
 Your task is to create a function that will take in an array of weather objects and will return a rounded average of the wind speed.
 Since we work with an unknown amount of entries, you will need to calculate the average wind speed using loops.
+### Day 11 Instructions
+Your task is to write a function that will take in a list of platforms and a date as a string. That function will update the date property on the first platform with an empty date and then return the platform list.
+In other terms, for each platform of the platform list array, update the date of the first free one and then return the updated platform list.
+
