@@ -28,3 +28,5 @@ In other terms, for each astronaut of the roster, you want to take the job and a
 ### Day 10 Instructions
 Your task is to create a function that will take in an array of weather objects and will return a rounded average of the wind speed.
 Since we work with an unknown amount of entries, you will need to calculate the average wind speed using loops.
+### Day 11 Instructions
+
