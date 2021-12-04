@@ -22,3 +22,9 @@ There's a small and important detail for this one, you must convert the temperat
 ### Day 8 Instructions
 Your task is to create a function that takes in a roster array, and will calculate the amount of astronauts in the given roster list and return said amount.
 Sometimes things are just simple, code doesn't need to be complicated!
+### Day 9 Instructions
+Your task is to create a function that will take in an array representing the roster of astronauts, and return an array containing the jobs of each astronaut as a string.
+In other terms, for each astronaut of the roster, you want to take the job and add it to a list, then return said list.
+### Day 10 Instructions
+Your task is to create a function that will take in an array of weather objects and will return a rounded average of the wind speed.
+Since we work with an unknown amount of entries, you will need to calculate the average wind speed using loops.
