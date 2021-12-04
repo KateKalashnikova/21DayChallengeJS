@@ -95,3 +95,16 @@ const averageWindSpeed = (weatherEntries) => {
   return Math.round(avg)
  }
  
+//Day 11
+
+const bookFreePlatform = (platformList, missionDate) => {
+ 
+  for (i=0; i < platformList.length; i++) {
+     if(platformList[i].bookDate === undefined) {
+      platformList[i].bookDate = `${missionDate}`;
+      break;
+    }
+  }
+    return platformList;
+  }
+  
