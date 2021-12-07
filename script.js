@@ -120,3 +120,13 @@ arr.push(`${messages[i].origin}: ${messages[i].message}`);
 }
 return arr
 }
+
+//Day 13
+const checkAllGauges = (gaugeList) => {
+  for(let i=0; i < gaugeList.length; i++) {
+    
+  if(gaugeList[i].current <= gaugeList[i].min || gaugeList[i].current >= gaugeList[i].max) {
+        return false
+      } 
+   } return true
+}
