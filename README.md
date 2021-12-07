@@ -31,4 +31,6 @@ Since we work with an unknown amount of entries, you will need to calculate the 
 ### Day 11 Instructions
 Your task is to write a function that will take in a list of platforms and a date as a string. That function will update the date property on the first platform with an empty date and then return the platform list.
 In other terms, for each platform of the platform list array, update the date of the first free one and then return the updated platform list.
-
+### Day 12 Instructions
+Your task is to write a function that will take in an array of objects containing a sender and a message as a parameter. The function will then parse a message from each object, add it to an array then return the built array.
+Each message is built exactly like the first challenge, so you can either use the function you already made, or rebuild it from scratch.
