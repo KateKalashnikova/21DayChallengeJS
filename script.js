@@ -130,3 +130,28 @@ const checkAllGauges = (gaugeList) => {
       } 
    } return true
 }
+
+//Day 14
+const switchAllTogglesOn = (toggleList) => {
+  for ( let i=0; i < toggleList.length; i++) {
+     if(!toggleList[i].isOn) {
+     toggleList[i].isOn = true
+   }
+  } 
+  return toggleList
+ }
+
+ //Day 15
+ const timeRemaining = (launchDate, missionName, fakeToday) => {
+  const today = fakeToday || new Date() // Do not alter this line!
+  const launch = new Date (launchDate);
+ 
+  let dayDiff = Math.round(launch - today);
+  let daysRemaining = dayDiff/ (1000 * 3600 * 24);
+
+  let objRemaining = {
+   missionName: `${missionName}`,
+   daysRemaining: `${daysRemaining}`
+};
+return objRemaining;
+}
