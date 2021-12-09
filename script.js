@@ -153,5 +153,32 @@ const switchAllTogglesOn = (toggleList) => {
    missionName: `${missionName}`,
    daysRemaining: `${daysRemaining}`
 };
-return objRemaining;
+   return objRemaining;
+}
+
+//Day 16
+const getAverageSpeed = (firstPosition, secondPosition) => {
+  let diffTime = secondPosition.time - firstPosition.time
+  let diffAlt = secondPosition.altitude - firstPosition.altitude
+  
+  let average = diffAlt / diffTime
+  let roundedAverage = Math.round(average * 10) / 10
+
+  return roundedAverage
+}
+
+//Day 17
+
+const switchSpecificToggle = (toggleList, specificToggle) => {
+  arr = [];
+   for ( let i=0; i < toggleList.length; i++) {
+     if(toggleList[i].name === `${specificToggle}`) {
+       if (!toggleList[i].isOn)
+     toggleList[i].isOn = !toggleList[i].isOn 
+     
+     arr.push(toggleList.isOn)
+    
+    }
+  } 
+  return toggleList
 }
