@@ -34,3 +34,12 @@ In other terms, for each platform of the platform list array, update the date of
 ### Day 12 Instructions
 Your task is to write a function that will take in an array of objects containing a sender and a message as a parameter. The function will then parse a message from each object, add it to an array then return the built array.
 Each message is built exactly like the first challenge, so you can either use the function you already made, or rebuild it from scratch.
+### Day 13 Instructions
+Your task is to write a function that will take in an array of objects containing a gauge reading (min, max, current). The function will then check if the gauge current value is within spec (between min and max) and check the next gauge. If one of the values is outside the spec, return false, if they are all ok, return true.
+The method the evaluate the gauge is the same as the third challenge. You may take your function, get inspired by it, or start from scratch in this challenge.
+### Day 14 Instructions
+Your task is to write a function that will take in an array of objects containing switches. The function will change the value of the isOn property to true for every switch in the list, and then return the updated array.
+You can use the previous switchToggle function from the fourth challenge, however be careful, since we want all of them on, not toggled!
+### Day 15 Instructions
+Your task is to write a function that will take in a launch date and a mission name as strings. Calculate the difference between two dates in days and return an object containing the name of the mission and a rounded day difference.
+A part of the code has been written for you, and it is important that it stays the same for the tests to work out.
