@@ -173,11 +173,8 @@ const switchSpecificToggle = (toggleList, specificToggle) => {
   arr = [];
    for ( let i=0; i < toggleList.length; i++) {
      if(toggleList[i].name === `${specificToggle}`) {
-       if (!toggleList[i].isOn)
      toggleList[i].isOn = !toggleList[i].isOn 
-     
      arr.push(toggleList.isOn)
-    
     }
   } 
   return toggleList
