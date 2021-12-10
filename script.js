@@ -179,3 +179,20 @@ const switchSpecificToggle = (toggleList, specificToggle) => {
   } 
   return toggleList
 }
+
+//Day 18
+const chooseLunchWinner = (listOfChoices) => {
+  const counts = {};
+  let maxCount = 0;
+  let maxChoice;
+  
+  for ( let i=0; i < listOfChoices.length; i++) {  
+     const choice = listOfChoices[i];
+     const count = (counts[choice] = (counts[choice] || 0) + 1);
+    if (count > maxCount) {
+      maxCount = count;
+      maxChoice = choice;
+    }
+  }
+  return maxChoice
+}
