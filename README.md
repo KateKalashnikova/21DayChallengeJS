@@ -43,3 +43,9 @@ You can use the previous switchToggle function from the fourth challenge, howeve
 ### Day 15 Instructions
 Your task is to write a function that will take in a launch date and a mission name as strings. Calculate the difference between two dates in days and return an object containing the name of the mission and a rounded day difference.
 A part of the code has been written for you, and it is important that it stays the same for the tests to work out.
+### Day 16 Instructions
+Your task is to write a function that will take in two position objects. Calculate the average speed from the two positions and return the average speed rounded to the first decimal point.
+Each object contains the altitude in meters, and a time stamp in seconds.
+### Day 17 Instructions
+Your task is to write a function that will take in an array of toggle objects and a specific toggle name. The goal is to switch only the specific toggle, without affecting the other toggles and then return the updated array.
+Don't forget that you can use your previous function from the fourth challenge to help you complete it faster!
