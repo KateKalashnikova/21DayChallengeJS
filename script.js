@@ -196,3 +196,35 @@ const chooseLunchWinner = (listOfChoices) => {
   }
   return maxChoice
 }
+
+//Day 19
+
+const organizeData = (receivedData) => {
+
+  var grouped = {};
+  
+  for (var i = 0; i < receivedData.length; i++) {
+    if(!grouped[receivedData[i].type]) {
+      grouped[receivedData[i].type] = [];
+    }
+    grouped[receivedData[i].type].push(receivedData[i].data);
+  }
+  return grouped;
+  }
+ 
+ // Day 20
+ const confirmReentryPlans = (speed, missionData, checks) => {
+  if(speed > checks.maxSpeed || speed < checks.minSpeed){
+    return false
+  }
+     for (const item in missionData){
+      const itemLengthChecks = checks.dataEntries[item];
+      const itemLength = missionData[item].length
+      
+      if(itemLengthChecks != itemLength) {
+        return false;
+      }
+    }
+     return true;
+  }
+   
