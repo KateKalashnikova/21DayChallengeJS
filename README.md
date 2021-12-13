@@ -52,3 +52,8 @@ Don't forget that you can use your previous function from the fourth challenge t
 ### Day 18 Instructions
 Your task is to write a function that will take in an array of lunch choices (strings) and return the choice as a string with the most votes.
 There is always two lunch choices, and always an odd number of astronauts!
+### Day 19 Instructions
+Your task is to write a function that will take in a list of data entries in the shape of an array of objects. The function will then organize and return the entries by type and store each bit of data (string) in each list, in the shape of an object containing arrays.
+### Day 20 Instructions
+Your task is to write a function that will take in speed (number), missionData (object) and checks (object) as parameters. The goal is to make sure that the speed is within the limits and that the amount of entries per type matches with the checks. If one of the values is a mismatch, return false, if everything is fine, return true.
+Speed will be compared against maxSpeed and minSpeed inclusively and the length of each array inside missionData will be compared to the values inside the dataEntries object values.
