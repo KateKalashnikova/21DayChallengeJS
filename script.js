@@ -228,3 +228,21 @@ const organizeData = (receivedData) => {
      return true;
   }
    
+  //Day 21
+  // Add parseMessage here if you want!
+const parseMessage = (origin, message) => {
+  return `${origin}: ${message}`
+}
+const parseMissionSummary = (exchanges, missionData) => {
+  // Code here!
+transcript = [];
+for (i=0; i < exchanges.length; i++){
+transcript.push(`${exchanges[i].origin}: ${exchanges[i].message}`);
+}
+
+let result = {
+   transcript,
+   missionData
+};
+  return result
+}
